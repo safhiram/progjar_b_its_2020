@@ -5,6 +5,7 @@ Safhira Maharani <br> 05111740000027 <br>
 1. modifikasi file udpfileclient.py dengan mengganti IP_Target menjadi 127.0.0.1 atau localhost dan IP_Port menjadi 5006
 2. buka wireshark, setting interface menjadi 'Adaptor Loopback traffic capture', lalu pada filter isi dengan "ip.src == 127.0.0.1 && ip.dst ==127.0.0.1 && udp.port==5006" 
 3. hasil capture
+<br>
 <img src=""></img>
 <br>
 
@@ -13,4 +14,5 @@ Safhira Maharani <br> 05111740000027 <br>
 1. modifikasi file udp_simple.py dengan mengganti IP_Target menjadi 127.0.0.1 atau localhost dan IP_Port menjadi 5006
 2. buka wireshark, setting interface menjadi 'Adaptor Loopback traffic capture', lalu pada filter isi dengan "ip.src == 127.0.0.1 && ip.dst ==127.0.0.1 && udp.port==5006" 
 3. hasil capture
+<br>
 <img src=""></img>
