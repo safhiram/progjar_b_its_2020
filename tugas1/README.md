@@ -18,11 +18,10 @@ Safhira Maharani <br> 05111740000027 <br>
 
 ## Jalankan program client.py untuk konek ke server yang jalan pada poin sebelumnya dan mengirimkan string “JARINGAN TEKNIK INFORPEMROGRAMAN MATIKA” 
 * Bukti
-    * client mengirimkan pesan
-    <br>
+    client mengirimkan pesan
     ![Client](foto/1.4.png)
-    * server menerima pesan dari clien
-    <br>
+
+    server menerima pesan dari clien
     ![Server](foto/2.png)
     
 
@@ -34,23 +33,22 @@ Safhira Maharani <br> 05111740000027 <br>
 
 ## MODIFIKASILAH program client.py dan server.py agar dapat MENTRANSFER file dari client ke server (letakkan program modifikasi di direktori tugas1a)
 * Bukti
-    * client mengirim file ke server
-    <br>
+    client mengirim file ke server
     ![Client](foto/6.client.png)
-    * server menerima file
-    <br>
+
+    server menerima file
     ![Server](foto/6.server.png)
-    * bukti file yang dikirimkan
-    <br>
+
+    bukti file yang dikirimkan
     ![Bukti](foto/6.bukti.png)
 
 ## MODIFIKASILAH program server.py agar dapat mengirimkan MENTRANSFER FILE yang di request oleh client (letakkan program modifikasi di direktori tugas1b) 
 * Bukti
-    * client request file ke server
-    <br>
+    client request file ke server
     ![Client](foto/7.client.png)
-    * server mengirimkan file
-    <br>
+
+    server mengirimkan file
     ![Server](foto/7.server.png)
-    * bukti file yang dikirimkan
+
+    bukti file yang dikirimkan
     ![Bukti](foto/7.bukti.png)
