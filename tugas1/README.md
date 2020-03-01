@@ -4,7 +4,7 @@ Safhira Maharani <br> 05111740000027 <br>
 ## Jalankan program server.py di 3 port yang berbeda (31000, 31001, 31002) 
 * Bukti
     * Saat server berjalan
-    <img scr="foto/1.1.png">
+    <img scr="/foto/1.1.png"></img>
     * Client mengirimkan pesan ke port 31000
     <img scr="../foto/1.2.png">
     * Client mengirimkan pesan ke port 31001
