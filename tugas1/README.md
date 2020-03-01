@@ -3,17 +3,16 @@ Safhira Maharani <br> 05111740000027 <br>
 # Tugas 1
 ## Jalankan program server.py di 3 port yang berbeda (31000, 31001, 31002) 
 * Bukti
-    * Saat server berjalan
-    <br>
+    Saat server berjalan
     ![Kondisi Awal](foto/1.1.png)
-    * Client mengirimkan pesan ke port 31000
-    <br>
+
+    Client mengirimkan pesan ke port 31000
     ![Port 31000](foto/1.2.png)
-    * Client mengirimkan pesan ke port 31001
-    <br>
+
+    Client mengirimkan pesan ke port 31001
     ![Port 31001](foto/1.3.png)
-    * Client mengirimkan pesan ke port 31002
-    <br>
+
+    Client mengirimkan pesan ke port 31002
     ![Port 31002](foto/1.4.png)
 
 
