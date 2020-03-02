@@ -30,8 +30,8 @@ Safhira Maharani <br> 05111740000027 <br>
     server dijalankan di komputer saya (IP : 10.151.253.11 ). <br>
     client dijalankan di komputer lain dengan IP 10.151.252.209. <br>
     client mengirimkan string "JARINGAN TEKNIK INFORPEMROGRAMAN MATIKA"<br>
-    ![Dua komputer yang berbeda : Server](foto/3.server.png)<br> Server <br>
-    ![Dua komputer yang berbeda : Client](foto/3.client.png)<br> Client <br>
+    ![Dua komputer yang berbeda : Server](foto/3.server.jpg)<br> Server <br>
+    ![Dua komputer yang berbeda : Client](foto/3.client.jpg)<br> Client <br>
 
 ## MODIFIKASILAH program client.py dan server.py agar dapat MENTRANSFER file dari client ke server (letakkan program modifikasi di direktori tugas1a)
 * Bukti
