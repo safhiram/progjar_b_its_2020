@@ -6,9 +6,10 @@ Contoh kasus kita dapat mendownload file gambar dengan input berupa URL secara b
 Guna dari adanya thread ini dapat meningkatkan efisiensi waktu dan sumber daya.
 <br>
 Langkah-langkah:
-    * buat list url gambar
-    * buat thread untuk masing2 input pada fungsi yang sama yaitu download_gambar
-    * start thread yang ada pada list threads
+
+* buat list url gambar
+* buat thread untuk masing2 input pada fungsi yang sama yaitu download_gambar
+* start thread yang ada pada list threads
 
 
 ## Hasil Request Download File menggunakan Thread
