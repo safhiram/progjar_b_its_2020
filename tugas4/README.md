@@ -105,14 +105,24 @@ FITUR
 # Gunakan format JSON untuk tugas ini
 
 <p> pada tugas ini sudah menggunakan format JSON, dapat dilihat dari screenshoot gambar diatas</p>
+<p> Data file yang disimpan di dalam database juga dalam bentuk json </p>
+
+![Data](foto/format_json.png)
 
 # Buat client untuk setiap operasi tersebut
 
 * Untuk operasi meletakkan file -> client_upload.py
+
+![Client](foto/client_upload.png)
+
 * Untuk operasi mengambil file -> client_download.py
+
+![Client](foto/client_download.png)
+
 * Untuk operasi melihat list file -> client_list.py
 
-Hasil screenshoot ada di atas
+![Client](foto/client_list.png)
+
 
 
 
