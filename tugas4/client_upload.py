@@ -18,8 +18,10 @@ try:
     filename, file_extension = os.path.splitext(os.path.abspath(mess))
     data = json.dumps(dict(perintah="upload", filename=mess, filesize=size, filetype=file_extension))+"xx"
 
+    print("Data yang dikirim dalam format json")
+    print(data)
+
     sock.sendall(data.encode())
-    print(data.encode())
     data = sock.recv(16).decode()
 
     if data == "OK":
