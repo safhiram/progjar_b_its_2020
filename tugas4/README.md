@@ -79,13 +79,13 @@ PROTOCOL FORMAT
 
 KETENTUAN MEMBACA FORMAT
 string terbagi menjadi 2 bagian, dipisahkan oleh spasi
-COMMAND spasi PARAMETER spasi PARAMETER ...
+COMMAND spasi PARAMETER ...
 
 FITUR
 
 - upload : untuk membuat file yang dikirim oleh client
   request : upload
-  parameter : (spasi) nama file
+  parameter : nama file
   response : berhasil -> OK
              gagal -> ERROR
 
@@ -96,7 +96,7 @@ FITUR
 
 - download : untuk mencari file berdasar nama
   request: get
-  parameter: (spasi) nama file yang dicari
+  parameter: nama file yang dicari
   response: file yang dicari dalam bentuk json format
 
 - jika command tidak dikenali akan merespon dengan ERRCMD
