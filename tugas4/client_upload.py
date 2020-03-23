@@ -11,12 +11,13 @@ print(f"connecting to {server_address}")
 sock.connect(server_address)
 
 #Input
-mess = input("Nama File yang akan dikirim ke server : ")
+mess = input()
+cstring = mess.split(" ")
 
 try:
-    size = os.path.getsize(os.path.abspath(mess))
-    filename, file_extension = os.path.splitext(os.path.abspath(mess))
-    data = json.dumps(dict(perintah="upload", filename=mess, filesize=size, filetype=file_extension))+"xx"
+    size = os.path.getsize(os.path.abspath(cstring[1]))
+    filename, file_extension = os.path.splitext(os.path.abspath(cstring[1]))
+    data = json.dumps(dict(perintah=cstring[0], filename=cstring[1], filesize=size, filetype=file_extension))+"xx"
 
     print("Data yang dikirim dalam format json")
     print(data)
@@ -25,7 +26,7 @@ try:
     data = sock.recv(16).decode()
 
     if data == "OK":
-        filee=open(mess,"rb")
+        filee=open(cstring[1],"rb")
         kirim = filee.read(1024)
         while(kirim):
             sock.send(kirim)

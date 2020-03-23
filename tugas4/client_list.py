@@ -10,8 +10,13 @@ server_address = ('127.0.0.1', 1234)
 print(f"connecting to {server_address}")
 sock.connect(server_address)
 
+mess = input()
+
 try:
-    message = json.dumps(dict(perintah="list"))+"xx"
+    message = json.dumps(dict(perintah=mess))+"xx"
+
+    print("Data dan perintah yang dikirim dalam format json")
+    print(message)
 
     sock.sendall(message.encode())
 
