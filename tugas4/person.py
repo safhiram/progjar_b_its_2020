@@ -22,9 +22,3 @@ class Person:
         k = [self.data[i] for i in self.data.keys()]
         return k
 
-if __name__=='__main__':
-    p = Person()
-    p.upload_data("vanBasten","621234","png")
-    p.upload_data("vanPersie","621235","txt")
-    p.upload_data("vanNistelroy","621236","pdf")
-    print(p.list_data())
