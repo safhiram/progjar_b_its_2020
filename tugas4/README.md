@@ -68,6 +68,8 @@
 
 ![Client](foto/list.png)
 
+Keterangan : Yang diberi kotak merah adalah data yang tersimpan di database pada saat upload. Yang lainnya adaah data dummy.
+
 * Hasil dari server_thread_person.py yang berhasil me return daftar data file yang ada dalam mydata.dir
 
 ![Server](foto/list2.png)
