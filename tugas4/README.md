@@ -96,7 +96,7 @@ FITUR
   parameter: tidak ada
   response: daftar file yang ada
 
-- download : untuk mencari file berdasar nama
+- download : untuk mencari file berdasar nama yang akan dikirimkan ke client
   request: download
   parameter: nama file yang dicari
   response: file yang dicari
