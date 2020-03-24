@@ -22,9 +22,9 @@ FITUR
   response: daftar file yang ada
 
 - download : untuk mencari file berdasar nama
-  request: get 
+  request: download
   parameter: nama file yang dicari
-  response: file yang dicari dalam bentuk json format
+  response: file yang dicari
 
 - jika command tidak dikenali akan merespon dengan ERRCMD
 
