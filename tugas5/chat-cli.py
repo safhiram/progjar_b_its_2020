@@ -100,6 +100,7 @@ class ChatClient:
         self.tokenid=""
         result = self.sendstring(string)
         if result['status']=='OK':
+            print("Logout berhasil dilakukan dengan session id :")
             return "{}" . format(json.dumps(result['message']))
         else:
             return "Error, {}" . format(result['message'])
