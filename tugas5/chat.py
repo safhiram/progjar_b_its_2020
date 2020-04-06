@@ -53,7 +53,12 @@ class Chat:
 	def show(self,sessionid):
 		if (sessionid not in self.sessions):
 			return {'status': 'ERROR', 'message': 'Session Tidak Ditemukan'}
-		msgs = self.sessions
+
+		msgs = []
+
+		for index in self.sessions:
+			msgs.append({'username':self.sessions[index]['username'],'name':self.sessions[index]['userdetail']['nama'],'negara':self.sessions[index]['userdetail']['negara']})
+
 		return {'status': 'OK', 'message': msgs}
 
 
