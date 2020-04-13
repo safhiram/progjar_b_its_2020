@@ -9,12 +9,11 @@ try:
     #pengiriman
     data = 'GET / HTTP/1.0'+"\r\n\r\n"
     sock.send(data.encode())
-
+    receivemsg = ""
     while True:
        dataa = sock.recv(32)
-       receivemsg = ""
        if (dataa):
-           receivemsg = dataa.decode()  #data harus didecode agar dapat di operasikan dalam bentuk string
+           receivemsg = receivemsg + dataa.decode()  #data harus didecode agar dapat di operasikan dalam bentuk string
            if receivemsg[-4:]=='\r\n\r\n':
                print("Isi Pesan:" + receivemsg)
                break
