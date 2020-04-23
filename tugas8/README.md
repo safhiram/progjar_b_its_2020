@@ -1,4 +1,4 @@
-# GET
+# POST : Sebelum dimodifikasi
 
 * Bukalah http://127.0.0.1:10002/sending.html pada browser, akan muncul tampilan seperti ini:
 
