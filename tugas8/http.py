@@ -31,7 +31,6 @@ class HttpServer:
 		return response_str
 
 	def proses(self,data):
-		print("ini data"+data)
 		requests = data.split("\r\n")
 		#print(requests)
 		baris = requests[0]

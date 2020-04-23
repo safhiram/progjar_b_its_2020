@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc305b0-8895-4668-b985-0909097d053b" name="Default Changelist" comment="" />
+    <list default="true" id="8c5e56f6-f331-4040-80c9-d95c46a11425" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1atyFiO0rJRTykGLJUCas16ou2K" />
+  <component name="ProjectId" id="1avsjPntCc4CaoV8RWnpnjSEZNY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,19 +19,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tugas7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1587627535435">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587627535435" />
-    <state x="489" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587627695237">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="489" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1587627695237" />
   </component>
 </project>
