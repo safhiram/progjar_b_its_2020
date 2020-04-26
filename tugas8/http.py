@@ -75,10 +75,13 @@ class HttpServer:
 		headers['Content-type']= "text/html"
 
 		return self.response(200,'OK',isi,headers)
-	def http_post(self,object_address,headers,konten2):
+	def http_post(self,object_address,headers,isi_form):
+		head = headers
 		headers ={}
-		isi = konten2
-		print("ISI"+isi)
+		isinya =""
+		for atribut in head:
+		    isinya = "<p>"+isinya+atribut+"</p><br>"
+		isi = "<div style="+"line-height:5px;margin-top:2%;"+">"+"<h1 style="+"margin-bottom:2%;"+">"+"Request Header </h1> \n" + isinya + "\n <h1> Form Data </h1> \n\n" + isi_form+"</div>"
 		return self.response(200,'OK',isi,headers)
 
 

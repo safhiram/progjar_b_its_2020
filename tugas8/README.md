@@ -21,6 +21,16 @@ Keterangan : Apapun inputnya, halaman akan tetap menampilkan tulisan kosong
 
 ![Client](bukti/2.png)
 
-* Tulisan di halaman akan sesuai dengan input yang diisi
+### Menampilkan semua  header yang dikirim dari browser
+
+![Client](bukti/7a2.png)
+
+![Client](bukti/7a1.png)
+
+<p><strong>Keterangan :</strong> Berisi Request Header yang dikirim dari browser ke server</p>
+
+### Menampilkan sesuai dengan isi form seperti saat mengisi pada poin 5
 
 ![Client](bukti/3.png)
+
+<p><strong>Keterangan :</strong> Isi pada form sesuai dengan input yang diisikan pada halaman sebelumnya</p>
