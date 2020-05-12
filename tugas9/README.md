@@ -1,36 +1,12 @@
-# POST : Sebelum dimodifikasi
+# Server Async
 
-* Bukalah http://127.0.0.1:10002/sending.html pada browser, akan muncul tampilan seperti ini:
+![Client](foto/1.png)
 
-![Client](bukti/get1.png)
+# Server Thread
 
-* Isilah input tersebut, tekan tombol kirim, dan akan muncul tampilan seperti ini:<br>
-Keterangan : Apapun inputnya, halaman akan tetap menampilkan tulisan kosong
+![Client](foto/2.png)
 
-![Client](bukti/get2.png)
-
-
-
-# POST : Modifikasi
-
-* Bukalah http://127.0.0.1:10002/sending.html pada browser, akan muncul tampilan seperti ini:
-
-![Client](bukti/1.png)
-
-* Isilah dengan input apapun dan tekan tombol kirim
-
-![Client](bukti/2.png)
-
-### Menampilkan semua  header yang dikirim dari browser
-
-![Client](bukti/7a2.png)
-
-![Client](bukti/7a1.png)
-
-<p><strong>Keterangan :</strong> Berisi Request Header yang dikirim dari browser ke server</p>
-
-### Menampilkan sesuai dengan isi form seperti saat mengisi pada poin 5
-
-![Client](bukti/3.png)
-
-<p><strong>Keterangan :</strong> Isi pada form sesuai dengan input yang diisikan pada halaman sebelumnya</p>
+# Kesimpulan
+<p>Dapat dlihat pada hasil performance test pada kedua macam server tersebut, server asynchronous<br>
+lebih memiliki peforma yang lebih baik jika dibandingkan dengan server thread, maka dari itu server<br>
+asynchronous bekerja lebih cepat daripada thread.</p>
