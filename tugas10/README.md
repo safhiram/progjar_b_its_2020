@@ -19,3 +19,10 @@
 
 ## asyncronus server dengan load balance
 ![Client](bukti/33.png)
+
+## Kesimpulan
+Dari ketiga tabel tersebut, dapat kita lihat bahwa asyncronus server yang
+menggunakan load balancer dapat memproses hasil yang lebih cepat jika dibandingkan
+dengan asyncronus server biasa dan multithread server. Hal ini dapat terjadi karena
+adanya load balancer untuk mendistribusikan request ke backend secara bergantian
+sehingga dapat mempercepat pemrosesan request.
