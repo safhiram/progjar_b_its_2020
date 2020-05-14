@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58e6a1b8-7f96-42dd-97d2-74e265ab7b77" name="Default Changelist" comment="" />
+    <list default="true" id="58e6a1b8-7f96-42dd-97d2-74e265ab7b77" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tugas10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tugas10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tugas10/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../tugas10/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tugas10/async_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tugas10/async_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tugas10/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tugas10/http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tugas10/lb.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tugas10/lb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tugas10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />

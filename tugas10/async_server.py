@@ -3,11 +3,9 @@ import time
 import sys
 import asyncore
 import logging
-from http import HttpServer
-from lb import BackendList
+from http import HttpServerScratch
 
-httpserver = HttpServer()
-backendList = BackendList()
+httpserver = HttpServerScratch()
 rcv = ""
 
 class ProcessTheClient(asyncore.dispatcher_with_send):
@@ -52,7 +50,7 @@ class Server(asyncore.dispatcher):
 			handler = ProcessTheClient(sock)
 
 def main():
-	portnumber=44444
+	portnumber=8887
 	try:
 		portnumber=int(sys.argv[1])
 	except:
@@ -62,4 +60,3 @@ def main():
 
 if __name__=="__main__":
 	main()
-

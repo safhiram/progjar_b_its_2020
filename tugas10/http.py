@@ -4,7 +4,7 @@ import uuid
 from glob import glob
 from datetime import datetime
 
-class HttpServer:
+class HttpServerScratch:
 	def __init__(self):
 		self.sessions={}
 		self.types={}
@@ -38,7 +38,7 @@ class HttpServer:
 		return response
 
 	def proses(self,data):
-		
+
 		requests = data.split("\r\n")
 		#print(requests)
 
@@ -68,20 +68,20 @@ class HttpServer:
 		fp = open(thedir+object_address,'rb') #rb => artinya adalah read dalam bentuk binary
 		#harus membaca dalam bentuk byte dan BINARY
 		isi = fp.read()
-		
+
 		fext = os.path.splitext(thedir+object_address)[1]
 		content_type = self.types[fext]
-		
+
 		headers={}
 		headers['Content-type']=content_type
-		
+
 		return self.response(200,'OK',isi,headers)
 	def http_post(self,object_address,headers):
 		headers ={}
 		isi = "kosong"
 		return self.response(200,'OK',isi,headers)
-		
-			 	
+
+
 #>>> import os.path
 #>>> ext = os.path.splitext('/ak/52.png')
 
@@ -93,18 +93,3 @@ class HttpServer:
 # 	print(d)
 # 	d = httpserver.http_get('testing.txt')
 # 	print(d)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

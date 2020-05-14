@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50d46e5f-7b39-40f2-b2f3-850b7c916bb2" name="Default Changelist" comment="" />
+    <list default="true" id="50d46e5f-7b39-40f2-b2f3-850b7c916bb2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lb.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tugas9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tugas9/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,15 +27,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tugas9" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1589260227970">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1589468016482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589260227970" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589468016482" />
   </component>
 </project>
