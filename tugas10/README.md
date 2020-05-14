@@ -15,7 +15,7 @@
 ![Client](bukti/11.png)
 
 ## server_thread_http.py pada port 46000
-![Client](bukti/12.png)
+![Client](bukti/22.png)
 
 ## asyncronus server dengan load balance
-![Client](bukti/12.png)
+![Client](bukti/33.png)

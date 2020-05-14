@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50d46e5f-7b39-40f2-b2f3-850b7c916bb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05111740000027_Tugas10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/05111740000027_Tugas10.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/async_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/http.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lb.py" beforeDir="false" afterPath="$PROJECT_DIR$/lb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tugas9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tugas9/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
